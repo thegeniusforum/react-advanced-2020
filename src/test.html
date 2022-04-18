@@ -1,0 +1,663 @@
+<h1 style="text-align: center">
+  <span style="font-family: Roboto">HTML 5</span>
+</h1>
+<div>
+  <span><!--more--></span><span style="font-family: Roboto"><br /></span>
+</div>
+<div>
+  <span style="font-family: Roboto"
+    >In this article, we will cover following areas:</span
+  >
+</div>
+<div>
+  <span style="font-family: Roboto"><br /></span>
+</div>
+<div>
+  <ol style="text-align: left">
+    <li>
+      <span style="font-family: Roboto">HTML 4 &amp; HTML 5 Input Types</span>
+    </li>
+    <li><span style="font-family: Roboto">Web Storage &amp; Types</span></li>
+    <li><span style="font-family: Roboto">Server Sent Events (SSE)</span></li>
+    <li><span style="font-family: Roboto">Web Sockets &amp; Methods</span></li>
+    <li><span style="font-family: Roboto">Microdata</span></li>
+  </ol>
+  <div>
+    <span style="font-family: Roboto"><br /></span>
+  </div>
+</div>
+<h2 style="text-align: left">
+  <ol style="text-align: left">
+    <li>
+      <span style="font-family: Roboto">HTML 4 &amp; HTML 5 Input Types</span>
+    </li>
+    <ul>
+      <li><span style="font-family: Roboto; font-size: small">HTML 4</span></li>
+    </ul>
+    <ol>
+      <ul>
+        <li>
+          <span
+            style="font-family: Roboto; font-size: small; font-weight: normal"
+            >password</span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >checkbox</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >radio</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >submit</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >file</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >image</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >hidden</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >select</span
+            ></span
+          >
+        </li>
+      </ul>
+    </ol>
+    <ul>
+      <li><span style="font-family: Roboto; font-size: small">HTML 5</span></li>
+      <ul>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >datetime (text input)</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >url</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >email</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >range (Range bar)</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >number</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >time</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >week</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >month</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >date</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-weight: normal"
+            ><span style="font-family: Roboto; font-size: small"
+              >datetime-local (calendar)</span
+            ></span
+          >
+        </li>
+      </ul>
+    </ul>
+    <br />
+    <li><span style="font-family: Roboto">Web Storage &amp; Types</span></li>
+    <ul>
+      <li>
+        <span style="font-family: Roboto"
+          ><span style="font-size: small">Session Storage</span></span
+        >
+      </li>
+      <ul>
+        <li>
+          <span style="font-family: Roboto; font-weight: normal"
+            ><span style="font-size: small"
+              >Browser tab specific storage</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-family: Roboto; font-weight: normal"
+            ><span style="font-size: small">Stores key-value pair</span></span
+          >
+        </li>
+        <li>
+          <span style="font-family: Roboto; font-weight: normal"
+            ><span style="font-size: small"
+              >Use JSON.stringify() and JSON.parse() for objects, arrays
+              etc.</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-family: Roboto"
+            ><span style="font-size: small">Example</span></span
+          >
+        </li>
+        <ul>
+          <li>
+            <span style="font-family: Roboto; font-size: medium">Set </span
+            ><span
+              style="
+                font-family: Roboto;
+                font-size: medium;
+                font-weight: normal;
+              "
+              >Value</span
+            >
+          </li>
+          <ul>
+            <li>
+              <div
+                style="
+                  background-color: #1e1e1e;
+                  color: #d4d4d4;
+                  font-family: Consolas, 'Courier New', monospace;
+                  font-size: 14px;
+                  font-weight: normal;
+                  line-height: 19px;
+                  white-space: pre;
+                "
+              >
+                <br />
+                <div>
+                  sessionStorage.setItem(<span style="color: #ce9178"
+                    >"name"</span
+                  >, <span style="color: #ce9178">"Hardik"</span>);
+                </div>
+                <div>
+                  sessionStorage.name =
+                  <span style="color: #ce9178">"Hardik"</span>;
+                </div>
+                <div>
+                  sessionStorage.obj = JSON.stringify({ name:
+                  <span style="color: #ce9178">"Hardik"</span> });
+                </div>
+                <br />
+              </div>
+            </li>
+          </ul>
+          <li>
+            <span style="font-family: Roboto"
+              ><span style="font-size: small"
+                >Get <span style="font-weight: normal">value</span></span
+              ></span
+            >
+          </li>
+          <ul>
+            <li>
+              <div
+                style="
+                  background-color: #1e1e1e;
+                  color: #d4d4d4;
+                  font-family: Consolas, 'Courier New', monospace;
+                  font-size: 14px;
+                  font-weight: normal;
+                  line-height: 19px;
+                  white-space: pre;
+                "
+              >
+                <br />
+                <div>
+                  sessionStorage.getItem(<span style="color: #ce9178"
+                    >"name"</span
+                  >);
+                </div>
+                <div>
+                  sessionStorage.name
+                  <span style="color: #6a9955">//returns "Hardik"</span>
+                </div>
+                <div>
+                  JSON.parse(sessionStorage.obj)
+                  <span style="color: #6a9955"
+                    >//returns &nbsp;{name: "Hardik"}</span
+                  >
+                </div>
+                <br />
+              </div>
+            </li>
+          </ul>
+          <li>
+            <span style="font-family: Roboto; font-size: small"
+              >Clear <span style="font-weight: normal">Storage</span></span
+            >
+          </li>
+          <ul>
+            <li>
+              <span style="font-family: Roboto; font-size: small"
+                ><span style="font-weight: 400"
+                  >sessionStorage.clear();</span
+                ></span
+              >
+            </li>
+          </ul>
+        </ul>
+      </ul>
+      <li>
+        <span style="font-family: Roboto; font-size: small">Local storage</span>
+      </li>
+      <ul>
+        <li>
+          <span
+            style="font-family: Roboto; font-size: small; font-weight: normal"
+            >Common across browser tabs</span
+          >
+        </li>
+        <li>
+          <span style="font-family: Roboto; font-weight: normal"
+            ><span style="font-size: small">Stores key-value pair</span></span
+          >
+        </li>
+        <li>
+          <span style="font-family: Roboto; font-weight: normal"
+            ><span style="font-size: small"
+              >Use JSON.stringify() and JSON.parse() for objects, arrays
+              etc.</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-family: Roboto"
+            ><span style="font-size: small">Example</span></span
+          >
+        </li>
+        <ul>
+          <li>
+            <span style="font-family: Roboto"
+              ><span style="font-size: small"
+                >Set <span style="font-weight: normal">Value</span></span
+              ></span
+            >
+          </li>
+          <ul>
+            <li>
+              <div
+                style="
+                  background-color: #1e1e1e;
+                  color: #d4d4d4;
+                  font-family: Consolas, 'Courier New', monospace;
+                  font-size: 14px;
+                  font-weight: normal;
+                  line-height: 19px;
+                  white-space: pre;
+                "
+              >
+                <br />
+                <div>
+                  localStorage.setItem(<span style="color: #ce9178">"name"</span
+                  >, <span style="color: #ce9178">"Hardik"</span>);
+                </div>
+                <div>
+                  localStorage.name =
+                  <span style="color: #ce9178">"Hardik"</span>;
+                </div>
+                <div>
+                  localStorage.obj = JSON.stringify({ name:
+                  <span style="color: #ce9178">"Hardik"</span> });
+                </div>
+                <br />
+              </div>
+            </li>
+          </ul>
+          <li>
+            <span style="font-family: Roboto"
+              ><span style="font-size: small"
+                >Get<span style="font-weight: normal"> value</span></span
+              ></span
+            >
+          </li>
+          <ul>
+            <li>
+              <div
+                style="
+                  background-color: #1e1e1e;
+                  color: #d4d4d4;
+                  font-family: Consolas, 'Courier New', monospace;
+                  font-size: 14px;
+                  font-weight: normal;
+                  line-height: 19px;
+                  white-space: pre;
+                "
+              >
+                <br />
+                <div>
+                  localStorage.getItem(<span style="color: #ce9178">"name"</span
+                  >);
+                </div>
+                <div>
+                  localStorage.name
+                  <span style="color: #6a9955">//returns "Hardik"</span>
+                </div>
+                <div>
+                  JSON.parse(localStorage.obj)
+                  <span style="color: #6a9955"
+                    >//returns &nbsp;{name: "Hardik"}</span
+                  >
+                </div>
+                <br />
+              </div>
+            </li>
+          </ul>
+          <li>
+            <span style="font-family: Roboto; font-size: small"
+              >Clear <span style="font-weight: normal">Storage</span></span
+            >
+          </li>
+          <ul>
+            <li>
+              <span style="font-family: Roboto; font-size: small"
+                ><span style="font-weight: 400"
+                  >localStorage.clear();</span
+                ></span
+              >
+            </li>
+          </ul>
+        </ul>
+      </ul>
+      <li>
+        <span style="font-family: Roboto; font-size: small"
+          ><span style="font-weight: 400">Web SQL</span></span
+        >
+      </li>
+      <ul>
+        <li>
+          <span style="font-family: Roboto; font-size: small"
+            ><span style="font-weight: 400"
+              >Non-relational, local browser storage</span
+            ></span
+          >
+        </li>
+        <li>
+          <span style="font-family: Roboto; font-size: small">Methods</span>
+        </li>
+        <ul>
+          <li>
+            <span
+              style="font-family: Roboto; font-size: small; font-weight: normal"
+              >openDatabase</span
+            >
+          </li>
+          <li>
+            <span
+              style="font-family: Roboto; font-size: small; font-weight: normal"
+              >executeSql</span
+            >
+          </li>
+        </ul>
+        <li>
+          <span style="font-family: Roboto; font-size: small"
+            >openDatabase()</span
+          >
+        </li>
+        <ul>
+          <li>
+            <div style="margin-bottom: 0in">
+              <span style="font-family: Roboto; font-size: small">Syntax</span>
+            </div>
+          </li>
+          <li>
+            <div style="margin-bottom: 0in">
+              <div
+                style="
+                  background-color: #1e1e1e;
+                  color: #d4d4d4;
+                  font-family: Consolas, 'Courier New', monospace;
+                  font-size: 14px;
+                  font-weight: normal;
+                  line-height: 19px;
+                  white-space: pre;
+                "
+              >
+                <div>
+                  <span style="color: #569cd6">var</span> db = openDatabase(
+                </div>
+                <div>&nbsp; Database_Name,</div>
+                <div>&nbsp; Version_Number,</div>
+                <div>&nbsp; Display_Name,</div>
+                <div>&nbsp; Size_of_database,</div>
+                <div>&nbsp; Creation_callback</div>
+                <div>);</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div style="margin-bottom: 0in">
+              <span style="font-family: Roboto; font-size: medium"
+                >Example</span
+              >
+            </div>
+          </li>
+          <li>
+            <div style="margin-bottom: 0in">
+              <div
+                style="
+                  background-color: #1e1e1e;
+                  color: #d4d4d4;
+                  font-family: Consolas, 'Courier New', monospace;
+                  font-size: 14px;
+                  font-weight: normal;
+                  line-height: 19px;
+                  white-space: pre;
+                "
+              >
+                <div>
+                  <span style="color: #569cd6">var</span> db = openDatabase(
+                </div>
+                <div>&nbsp; <span style="color: #ce9178">"MyAppDb"</span>,</div>
+                <div>&nbsp; <span style="color: #ce9178">"1.1"</span>,</div>
+                <div>
+                  &nbsp; <span style="color: #ce9178">"MyAppLoggerDB"</span>,
+                </div>
+                <div>&nbsp; <span style="color: #b5cea8">200</span>,</div>
+                <div>&nbsp; myDbCreationCallback</div>
+                <div>);</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <li>
+          <span style="font-family: Roboto; font-size: small"
+            >executeSql()</span
+          >
+        </li>
+        <ul>
+          <li>
+            <span
+              style="font-family: Roboto; font-size: small; font-weight: normal"
+              >Example</span
+            >
+          </li>
+          <ul>
+            <li>
+              <span style="font-family: Roboto; font-size: small"
+                ><span style="font-weight: 400"
+                  ><div
+                    style="
+                      background-color: #1e1e1e;
+                      color: #d4d4d4;
+                      font-family: Consolas, 'Courier New', monospace;
+                      font-size: 14px;
+                      line-height: 19px;
+                      white-space: pre;
+                    "
+                  >
+                    <div>
+                      db.transaction(<span style="color: #569cd6"
+                        >function</span
+                      >
+                      (tx) {
+                    </div>
+                    <div>&nbsp; tx.executeSql(</div>
+                    <div>
+                      &nbsp; &nbsp;
+                      <span style="color: #ce9178">"SELECT * FROM LOGS"</span>,
+                    </div>
+                    <div>&nbsp; &nbsp; [],</div>
+                    <div>
+                      &nbsp; &nbsp;
+                      <span style="color: #569cd6">function</span> (tx, results)
+                      {
+                    </div>
+                    <div>
+                      &nbsp; &nbsp; &nbsp;
+                      <span style="color: #569cd6">var</span> len =
+                      results.rows.length,
+                    </div>
+                    <div>&nbsp; &nbsp; &nbsp; &nbsp; i;</div>
+                    <div>
+                      &nbsp; &nbsp; &nbsp; msg =
+                      <span style="color: #ce9178"
+                        >"&lt;p&gt;Found rows: "</span
+                      >
+                      + len + <span style="color: #ce9178">"&lt;/p&gt;"</span>;
+                    </div>
+                    <div>
+                      &nbsp; &nbsp; &nbsp; document.querySelector(<span
+                        style="color: #ce9178"
+                        >"#status"</span
+                      >).innerHTML += msg;
+                    </div>
+                    <br />
+                    <div>
+                      &nbsp; &nbsp; &nbsp;
+                      <span style="color: #569cd6">for</span> (i =
+                      <span style="color: #b5cea8">0</span>; i &lt; len; i++) {
+                    </div>
+                    <div>
+                      &nbsp; &nbsp; &nbsp; &nbsp;
+                      alert(results.rows.item(i).log);
+                    </div>
+                    <div>&nbsp; &nbsp; &nbsp; }</div>
+                    <div>&nbsp; &nbsp; },</div>
+                    <div>
+                      &nbsp; &nbsp; <span style="color: #569cd6">null</span>
+                    </div>
+                    <div>&nbsp; );</div>
+                    <div>});</div>
+                    <br /><br /></div></span
+              ></span>
+            </li>
+          </ul>
+        </ul>
+      </ul>
+    </ul>
+    <br />
+    <li><span style="font-family: Roboto">Server Sent Events (SSE)</span></li>
+    <ul>
+      <li>
+        <span style="font-family: Roboto; font-size: small"
+          ><p class="MsoNormal" style="font-weight: normal; margin-bottom: 0in">
+            In traditional web apps, the request will got to server once user
+            clicks on a link and then it will open a new page, its called as
+            client sent events (CSE).
+          </p></span
+        >
+      </li>
+      <li>
+        <div style="margin-bottom: 0in">
+          <span style="font-family: Roboto; font-size: small"
+            ><div style="font-weight: normal; margin-bottom: 0in">
+              In HTML 5, WHATWG Web Application introduced SSE, where events
+              will flow from Server to Client.
+            </div></span
+          >
+        </div>
+      </li>
+      <li>
+        <div style="margin-bottom: 0in">
+          <span
+            style="font-family: Roboto; font-size: small; font-weight: normal"
+            >So, For connections, Server can ping rather than client doing
+            Polling.</span
+          >
+        </div>
+      </li>
+      <li>
+        <div style="margin-bottom: 0in">
+          <span
+            style="font-family: Roboto; font-size: small; font-weight: normal"
+            >Here, Web Server can Push DOM events from web server to web
+            browser.</span
+          >
+        </div>
+      </li>
+    </ul>
+  </ol>
+</h2>
+<h2>
+  <ol style="text-align: left">
+    <li>
+      <span style="font-family: Roboto; font-size: medium"
+        ><span style="font-weight: 400">Web Sockets</span></span
+      >
+    </li>
+  </ol>
+</h2>
